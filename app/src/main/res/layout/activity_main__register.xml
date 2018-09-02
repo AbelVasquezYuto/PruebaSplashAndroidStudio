@@ -51,6 +51,26 @@
                 android:background="#FC8D3C"/>
 
             <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:background="@android:color/transparent"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="Adress"
+            android:textColorHint="#FC8D3C"
+            android:maxLines="1"
+            android:layout_marginTop="4dp"
+            android:drawableLeft="@drawable/ic_add_circle_white_24dp"
+            />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FC8D3C" />
+
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
@@ -70,12 +90,32 @@
                 android:layout_height="1dp"
                 android:background="#FC8D3C" />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Repeat Password"
+                android:textColorHint="#FC8D3C"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FC8D3C" />
+
             <Button
-                android:id="@+id/bt_sign_in"
+                android:id="@+id/bt_sign_up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/background_sign_in"
-                android:text="SIGN IN"
+                android:text="SIGN_UP"
                 android:textColor="#FFFFFF"
                 android:textAllCaps="false"
                 android:padding="16dp"
@@ -83,24 +123,6 @@
                 android:clickable="true"
                 android:layout_marginTop="24dp"
                 />
-
-            <TextView
-                android:id="@+id/tv_registrese"
-                android:textSize="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Registrese"
-                android:textColor="#FC8D3C"
-                android:textAlignment="center"
-                android:textColorLink="@color/colorPrimary"
-                />
-
-            <View
-                android:layout_gravity="center"
-                android:layout_width="105dp"
-                android:layout_height="1dp"
-                android:background="#FC8D3C" />
 
         </LinearLayout>
     </ScrollView>
