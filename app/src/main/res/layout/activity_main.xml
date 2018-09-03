@@ -30,14 +30,15 @@
                 />
 
             <EditText
+                android:id="@+id/et_usuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:ems="10"
                 android:background="@android:color/transparent"
                 android:drawablePadding="12dp"
                 android:padding="8dp"
-                android:hint="Username"
+                android:hint="Usuario"
                 android:textColorHint="#FC8D3C"
                 android:maxLines="1"
                 android:layout_marginTop="10dp"
@@ -51,6 +52,7 @@
                 android:background="#FC8D3C"/>
 
             <EditText
+                android:id="@+id/et_contraseña"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
@@ -58,7 +60,7 @@
                 android:background="@android:color/transparent"
                 android:drawablePadding="12dp"
                 android:padding="8dp"
-                android:hint="Password"
+                android:hint="Contraseña"
                 android:textColorHint="#FC8D3C"
                 android:maxLines="1"
                 android:layout_marginTop="4dp"
@@ -75,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/background_sign_in"
-                android:text="SIGN IN"
+                android:text="INGRESAR"
                 android:textColor="#FFFFFF"
                 android:textAllCaps="false"
                 android:padding="16dp"
@@ -90,7 +92,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Registrese"
+                android:text="Registrese Aqui"
                 android:textColor="#FC8D3C"
                 android:textAlignment="center"
                 android:textColorLink="@color/colorPrimary"
@@ -98,7 +100,7 @@
 
             <View
                 android:layout_gravity="center"
-                android:layout_width="105dp"
+                android:layout_width="140dp"
                 android:layout_height="1dp"
                 android:background="#FC8D3C" />
 

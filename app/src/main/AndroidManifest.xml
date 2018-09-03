@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".MainActivity_Register"></activity>
+        <activity android:name=".MainActivity_Register" />
+        <activity
+            android:name=".MainActivity_NavigationDrawer"
+            android:label="@string/title_activity_main__navigation_drawer"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
